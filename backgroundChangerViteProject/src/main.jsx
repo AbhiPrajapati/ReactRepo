@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+import ColorButton from './Components/ColorButton'
+import Container from './Components/Container'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    
+    <Container>
+      </Container>
   </React.StrictMode>,
 )
