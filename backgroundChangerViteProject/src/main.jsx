@@ -6,8 +6,7 @@ import Container from './Components/Container'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    
     <Container>
-      </Container>
+    </Container>
   </React.StrictMode>,
 )

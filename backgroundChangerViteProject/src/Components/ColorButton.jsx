@@ -1,11 +1,10 @@
- const colorChanger = () =>{
-    document.body.style.backgroundColor = "red";
-}
+import { useState } from "react";
 
-function ColorButton(props)
+
+function ColorButton({object,bgColor})
 {
     return (
-        <button onClick="colorChanger"className="color-btn rounded p-6 m-4" style={{backgroundColor:props.bgColor}}>
+        <button className="color-btn rounded p-6 m-4" onClick={object} style={{backgroundColor:bgColor} }>
           
         </button>
     );

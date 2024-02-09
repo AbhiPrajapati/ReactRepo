@@ -17,9 +17,15 @@ body{
   margin-top: 90vh;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .color-btn{
   width:100px;
   height:30px;
+}
+
+#body-container{
+  position: absolute;
+  width: 100%;
 }
