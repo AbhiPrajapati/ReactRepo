@@ -14,15 +14,19 @@ body{
 .container{
   background-color: azure;
   padding : 20px 10px;
-  margin-top: 90vh;
+  margin-top: 80vh;
   margin-left: auto;
   margin-right: auto;
   position: relative;
 }
 
 .color-btn{
-  width:100px;
-  height:30px;
+  width:105px;
+  height:32px;
+  color: aliceblue;
+  font-size: small;
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #body-container{
